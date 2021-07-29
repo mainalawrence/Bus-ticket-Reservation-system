@@ -1,0 +1,25 @@
+.login-side{
+   flex: 0.5;
+
+}
+
+.signup-side{
+    padding-left: 5%;
+    flex: 0.5;
+}
+
+@media screen and (max-width: 600px){
+    .c-container{
+    display: flex !important;
+    flex-direction:column !important;
+   
+}
+.signup-side-sm{
+    flex: 0 !important;
+    padding: 0;
+}
+.login-side-sm{
+    flex: 0 !important;
+    margin-bottom: 10%;
+}
+}
